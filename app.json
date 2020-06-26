@@ -1,0 +1,9 @@
+{
+  "name": "pijns2",
+  "displayName": "pijns2",
+  "scripts": {
+    "start": "react-native start --reset-cache",
+    "ios": "react-native run-ios --scheme Quadio",
+    "nuke": "rm -rf node_modules && yarn cache clean && yarn"
+  }
+}
